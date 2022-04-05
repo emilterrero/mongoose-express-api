@@ -20,19 +20,23 @@ npm install express mongoose
 ```
 
 ## Run Server 
-run monogsh 
-
 ``` 
-mongosh
+node server.js
 ```
 
-switch to the database
+## Routes 
+|Method | Endpoints     | Description                      |
+|-------|---------------|----------------------------------|
+|GET    |/              |API Root                          |
+|GET    |/snowboards    |Find All or by size, brand, model |
+|GET    |/snowboards:id |Retrieves a board by ID           |
+|POST   |/snowboards    |Creates a new snowboard           |
+|PUT    |/snowboards:id |Updates current board search by ID|
+|DELETE |/snowboards:id |Deletes current board search by ID|
+
+## POST 
+When creating a new board, sizes only takes arrays so they must be entered this way  
 ```
-use mongoose-express-api
-```
-Have fun !
+http POST :9000/snowboards sizes:='[156, 135]' 
 
-
-
-
-
+## NOW HAVE FUN ! 
