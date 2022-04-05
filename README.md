@@ -38,5 +38,6 @@ node server.js
 When creating a new board, sizes only takes arrays so they must be entered this way  
 ```
 http POST :9000/snowboards sizes:='[156, 135]' 
+```
 
 ## NOW HAVE FUN ! 
