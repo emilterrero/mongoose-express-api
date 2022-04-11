@@ -57,7 +57,7 @@
     }, 
     {
         "brand": "bataleon",
-        "model": "storm",
+        "model": "disaster",
         "year": 2021,
         "bestFor": "powder",
         "sizes": [150, 154, 158]
@@ -99,7 +99,7 @@
     },
     {
         "brand": "burton",
-        "model": "nstigator",
+        "model": "instigator",
         "year": 2021,
         "bestFor": "all mountain",
         "sizes": [145, 149, 152, 154]
