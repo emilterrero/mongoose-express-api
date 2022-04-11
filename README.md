@@ -21,7 +21,7 @@ npm install express mongoose
 
 ## Run Server 
 ``` 
-node server.js
+node index.js
 ```
 
 ## Routes 
